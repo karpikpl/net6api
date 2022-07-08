@@ -24,4 +24,4 @@ app.MapControllers();
 
 app.MapGet("/hi", () => "Hello World!");
 
-app.Run("http://localhost:6054");
+app.Run();
